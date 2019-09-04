@@ -19,4 +19,4 @@ async def on_message(message):
             lunch = tabelog.get_shop_list(words[1], words[2])
             await client.send_message(message.channel, lunch)
 
-client.run("TOKEN")
+client.run("NjE2MzAwOTMxMDA4NjkyMjM0.XW8moA.DKy50CkSwtvJOg9Cfm77Fn-fj7U")
